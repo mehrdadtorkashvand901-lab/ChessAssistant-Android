@@ -25,7 +25,7 @@ jobs:
       - name: Extract M4 project
         run: |
           mkdir m4
-          unzip -q ChessAssistant-Android-M4.zip -d m4
+          unzip -q ChessAssistant-Android-M4-2.zip -d m4
 
       - name: Fix Java 17 compatibility
         run: |
